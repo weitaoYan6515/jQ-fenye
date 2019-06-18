@@ -1,0 +1,89 @@
+
+
+
+/* 重置样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.active{
+    background: orange;
+    color:#fff;
+}
+#buttonBox ul{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+#buttonBox li{
+    height: 30px;
+    padding:0 10px;
+    display: flex;
+    align-items: center;
+}
+#buttonBox li:hover{
+    background: #999;
+    cursor: default;
+}
+
+/* 普通样式 */
+/*li{
+    height: 30px;
+    padding:0 10px;
+    display: flex;
+    align-items: center;
+}
+ */
+
+
+
+/* 网络样式 */
+#contentBox li{
+    border-bottom: 1px solid #666;
+    padding:10px 30px;
+}
+#contentBox li>div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#contentBox li>div:first-of-type>div{
+    display: flex;
+    align-items: center;
+}
+#contentBox li>div:first-of-type>span{
+    white-space: nowrap;
+}
+#contentBox li>div:first-of-type>div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#contentBox li>div:first-of-type>div strong{
+    margin-left: 10px;
+    white-space: nowrap;
+}
+#contentBox li>p{
+    margin: 20px 0;
+}
+#contentBox li>div:last-of-type{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#contentBox li>div:last-of-type>div{
+    display: flex;
+    align-items: center;
+}
+#contentBox li>div:last-of-type>div>img{
+    width: 50px;
+    height: 50px;
+}
